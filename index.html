@@ -18,10 +18,10 @@
     </nav>
 
     <section id="home">
-        <div class="main">
-            <h1 class="headings">I am<br> John Mullin</h1>
+        <div class="main">      
+            <h1 class="headings"><br> John Mullin</h1>
             <button class="btn">
-                Hire Me!
+                <li><a href="#contact">Contact</a></li>
             </button>
         </div>
     </section> 
@@ -31,8 +31,20 @@
         <div id="pic">
             <img src="PortPic.jpg" alt="">
             <div id="intro">
-                <h2> JOHN </h2>
-                <p>Dude bro im so awesome bro watch me smash my driver like Tiger!<p/>
+                <p>Hello and welcome to my page!<p/>
+                <p>Here you will find links to my software development repository and a plethora of self aggrandizing videos!<p/>
+                
+            <video width="320" height="240" controls>
+                <source src="GTRcardi.mp4" type=video/mp4>
+            </video>
+            <video width="320" height="240" controls>
+                <source src="FunkDrums.mp4" type=video/mp4>
+            </video>
+            <video width="320" height="240" controls>
+                <source src="DeckedDriver.mp4" type=video/mp4>
+            </video>
+    
+                        
             </div>
         </div>
     </section>
@@ -40,41 +52,78 @@
     <section id="portfolio">
         <h1 class="headings">Portfolio</h1>
         <div class="gallery">
-            <video width="320" height="240" controls>
-                <source src="GTRcardi.mp4" type=video/mp4>
-            </video>
-            <video width="320" height="240" controls>
-                <source src="FunkDrums.mp4" type=video/mp4>
-            </video>
-    
-            <img src="aaronspearskit.jpg" alt="">
+                <div id="description">
+                <h2> Check out my projects on GitHub! </h2>
+            <button class="btn2">
+                  <a href="https://github.com/Djaypm89/Djaypm89.github.io">Visit My Repo!</a>
+            </button>
+            <br></br>
+            <br></br>
+            
+
+        <form action="" class="form2">
+            <input type="text" name="title" class="input2"
+            placeholder="Project Title">
+            <input type="text" name="describe" class="input2"
+            placeholder="Project Description">
+            <input type="text" name="image" class="input2"
+            placeholder="Image URL">
+            <input type="submit" value="Upload" id="send2">
+        </form>             
+              
         </div>
     </section>
 
     <section id="services">
-        <h1 class="headings">Services</h1>
+        <h1 class="headings">Work Experience</h1>
         <div class="row">
             <div class="box">
-            {% comment %} <img src="Services/png.png1" alt=""> {% endcomment %}
-                <h1 class="headings">Software Development</h1>
-                <p>describe expereince</p>
+                <h1>SOFTWARE DEVELOPMENT</h1>
+                <br></br>
+                <p>JavaScript</p>
+                <p>React.JS</p>
+                <p>Node.JS</p>
+                <p>SQL</p>
+                <p>HTML</p>
+                <p>CSS</p>
             </div>
 
             <div class="box">
-            {% comment %} <img src="Services/png.png2" alt=""> {% endcomment %}
-                <h1 class="headings">Software Development</h1>
-                <p>describe expereince</p>
-            </div>
+                <h1>MILITARY</h1>
+                 <br></br>
+                 <p>US Air Force::</p>
+                <p>F-22 Structural MX</p>
+            </div>    
 
             <div class="box">
-            {% comment %} <img src="Services/png.png3" alt=""> {% endcomment %}
-                <h1 class="headings">Software Development</h1>
-                <p>describe expereince</p>
+                <h1>LOGISTICS</h1>
+                <br></br>
+                <p>R+L Carriers:  </p>
+                <p>B2B Shipping</p>
+                <p>Freight Broker</p>
+                <p>Logistics Coordindator</p>
+            </div>                   
+
+            <div class="box">
+                <h1>FINANCE/BANKING</h1>
+                <br></br>
+                <p>University of Delaware:</p>
+                <p>B.S. in Finance</p>
+                <br></br>
+                <p>Barclays Bank:  </p>
+                <p>      Credit, Collections, Fraud</p>
             </div>
+
     </section>
     
     <section id="contact">
         <h1 class="headings">Contact</h1>
+        <div>
+                <p>John Mullin</p>
+                <p>Djaypm89@gmail.com:</p>
+                <p>907-302-8296</p>
+                <p>West Palm Beach, FL</p>
+        </div>
         <form action="" class="form">
             <input type="text" name="name" class="input"
             placeholder="Enter Your Name">
@@ -83,7 +132,8 @@
             <textarea name="msg" id="msg" cols"30" rows="10"
             placeholder="Enter Your Message"></textarea>
             <input type="submit" value="SEND" id="send">
-        </form>
+        </form> 
+
     </section>
 
 </body>

@@ -64,6 +64,15 @@ html {
     z-index: -1;
 }
 
+#pic {
+    display: flex;
+
+}
+#pic img {
+    width: 100px;
+    height: 350px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -77,14 +86,14 @@ html {
 .headings {
      font-family: century;
      font-size: 3rem;
-     text-align: center;
+     text-align: left;
      margin: 40px 0px;
 }
 
 .btn {
-    padding: 10px 100px;
+    padding: 5px 160px;
     background-color: transparent;
-    border: 1px solid maroon;
+    border: 5px solid maroon;
     color:maroon;
     outline: none;
     transition: .6s ease;
@@ -92,10 +101,10 @@ html {
 
 .btn:hover {
     cursor: pointer;
-    background-color: whitesmoke;
+    background-color: grey;
     color: maroon;
     box-shadow: 0 0 5 white, 0 0 10px white, 0 0 15px white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /* About Section */
@@ -106,6 +115,7 @@ html {
     padding: 20px;
     margin-bottom: 50px;
 }
+
 
 #pic {
     display: flex;
@@ -120,10 +130,10 @@ html {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
 }
 
-intro h2 {
+#intro h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -131,25 +141,63 @@ intro h2 {
 /* Portfolio Section */
 
 #portfolio {
+    width: 1348px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     background-color: grey;
-    color: black;
-    align-items: center;
+    color:greenyellow;
+    align-items: left;
     padding: 20px;
+    background-image: url("HackerFunny.jpg");
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: left;
     box-sizing: border-box;
+    text-align: left;
+    padding-top: 5%;
 }
+
 
 .gallery img {
     width: 360px;
     height: 240px;
     margin: 10px;
+    text-align: left;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: right;
+    margin: 0px 0px;
+}
+
+.input2 {
+    padding: 5px;
+    margin: 5px;
+    width: 30%;
+    border: none;
+    outline: none;
+
+}
+
+#send2 {
+    padding: 10px;
+    width: 30%;
+    margin: 5px;
+    border: none;
+    outline: none;
+}
+
+#send2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+
 }
 
 /* Services */
@@ -169,11 +217,11 @@ intro h2 {
 .box {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 450px;
-    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    border: 1px solid maroon;
     margin: 10px;
-    align-items: center;
+    align-items: left;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
@@ -184,7 +232,7 @@ intro h2 {
 
 .box:hover {
     background-position: left bottom;
-    color: black;
+    color: maroon;
     border: none;
     box-shadow: 0 0 20px aqua;
 }
@@ -201,9 +249,9 @@ intro h2 {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
-    padding: 20px;
+    background-color: gray;
+    color: maroon;
+    padding: 5px;
 }
 
 .form {
@@ -211,7 +259,7 @@ intro h2 {
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 
 .input {
